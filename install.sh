@@ -26,6 +26,8 @@ sudo apt install -y \
   qml6-module-qt-labs-folderlistmodel \
   qt6-wayland \
   kitty \
+  bibata-cursor-theme \
+  zoxide \
   nemo
 
 echo "==> Creating directories..."
