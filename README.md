@@ -1,4 +1,4 @@
-# Aarron's Dotfiles
+# Aaron's Dotfiles
 
 Dotfiles for Niri + Noctalia on PikaOS (Debian-based).
 
