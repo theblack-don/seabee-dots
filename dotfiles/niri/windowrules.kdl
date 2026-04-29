@@ -1,0 +1,96 @@
+window-rule {
+    match app-id=r#"^com\.obsproject\.Studio$"#
+    default-column-width { proportion 0.7; }
+
+}
+
+window-rule {
+    match app-id=r#"^org.qutebrowser.qutebrowser$"#
+    opacity 0.97
+}
+
+window-rule {
+    match app-id=r#"^org.qutebrowser.qutebrowser$"# is-focused=false
+    opacity 0.85
+}
+
+window-rule {
+    match app-id=r#"^nemo$"#
+    opacity 0.95
+}
+
+window-rule {
+    match app-id=r#"^org.kde.kdenlive$"#
+    opacity 0.95
+    default-column-width { proportion 0.7; }
+}
+
+window-rule {
+    match app-id=r#"^org\.telegram\.desktop$"#
+    opacity 0.95
+    open-on-workspace "D"
+    default-column-width { proportion 1.0; }
+}
+
+window-rule {
+    match app-id=r#"^org\.telegram\.desktop$"# is-focused=false
+    opacity 0.85
+}
+
+window-rule {
+    match app-id=r#"^steam$"#
+    opacity 0.95
+}
+
+window-rule {
+    match app-id=r#"^steam$"# is-focused=false
+    opacity 0.85
+}
+
+window-rule {
+    match app-id=r#"^chromium$"#
+    opacity 0.95
+}
+
+window-rule {
+    match app-id=r#"^vesktop$"#
+    opacity 0.95
+}
+
+window-rule {
+    match app-id=r#"^equibop$"#
+    opacity 0.95
+    open-on-workspace "D"
+    default-column-width { proportion 1.0; }
+}
+
+window-rule {
+    match app-id=r#"^vesktop$"# is-focused=false
+    opacity 0.85
+}
+
+window-rule {
+    match app-id=r#"^com.discordapp.Discord$"#
+    opacity 0.95
+}
+
+window-rule {
+    match app-id=r#"^com.discordapp.Discord$"# is-focused=false
+    opacity 0.85
+}
+
+window-rule {
+    match app-id=r#"^dev\.zed\.Zed$"#
+    opacity 0.97
+    default-column-width { proportion 0.7; }
+}
+
+window-rule {
+    match app-id=r#"^dev\.zed\.Zed$"# is-focused=false
+    opacity 0.85
+}
+
+window-rule {
+    match title="floating-kitty"
+    open-floating true
+}

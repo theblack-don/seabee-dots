@@ -1,0 +1,10 @@
+#!/bin/bash
+equibop &
+flatpak run org.telegram.desktop &
+
+# Wait a moment for windows to appear
+sleep 1.0
+
+# Use niri msg to focus left and consume
+niri msg action focus-column-left
+niri msg action consume-window-into-column
