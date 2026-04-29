@@ -5,7 +5,7 @@ Dotfiles for Niri + Noctalia on PikaOS (Debian-based).
 ## Install
 
 ```bash
-bash <(curl -sL https://raw.githubusercontent.com/theblackdon/seabee-dots/main/install.sh)
+bash <(curl -sL https://raw.githubusercontent.com/theblack-don/seabee-dots/main/install.sh)
 ```
 
 ## What it does
