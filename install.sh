@@ -1,6 +1,15 @@
 #!/usr/bin/env bash
 set -e
 
+if [[ ! -d "dotfiles" ]]; then
+    echo "Error: 'dotfiles' directory not found."
+    echo "Please clone the repository and run this script from inside it:"
+    echo "  git clone https://github.com/theblack-don/seabee-dots.git"
+    echo "  cd seabee-dots"
+    echo "  bash install.sh"
+    exit 1
+fi
+
 echo "==> Updating package list..."
 sudo apt update
 

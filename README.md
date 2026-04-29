@@ -4,8 +4,12 @@ Dotfiles for Niri + Noctalia on PikaOS (Debian-based).
 
 ## Install
 
+Clone the repository and run the install script:
+
 ```bash
-bash <(curl -sL https://raw.githubusercontent.com/theblack-don/seabee-dots/main/install.sh)
+git clone https://github.com/theblack-don/seabee-dots.git
+cd seabee-dots
+bash install.sh
 ```
 
 ## What it does
